@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="JavaCalc" layout-manager="GridLayoutManager" row-count="6" column-count="10" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="20" bottom="0" right="20"/>
+    <constraints>
+      <xy x="20" y="20" width="945" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-12504512"/>
+      <enabled value="true"/>
+      <font name="Cooper Black" style="2"/>
+      <foreground color="-1"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="4aee4" class="javax.swing.JButton" binding="btnopenbracket">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="("/>
+        </properties>
+      </component>
+      <component id="db2eb" class="javax.swing.JButton" binding="btnclosebrcacket">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value=")"/>
+        </properties>
+      </component>
+      <component id="92526" class="javax.swing.JButton" binding="btnmc">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="mc"/>
+        </properties>
+      </component>
+      <component id="6950d" class="javax.swing.JButton" binding="btnmplus">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="m+"/>
+        </properties>
+      </component>
+      <component id="307a2" class="javax.swing.JButton" binding="btnmminus">
+        <constraints>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="m-"/>
+        </properties>
+      </component>
+      <component id="bd12" class="javax.swing.JButton" binding="btnmr">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="mr"/>
+        </properties>
+      </component>
+      <component id="1dbbd" class="javax.swing.JButton" binding="btnplusorminus">
+        <constraints>
+          <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="+/-"/>
+        </properties>
+      </component>
+      <component id="4370a" class="javax.swing.JButton" binding="btnpercentage">
+        <constraints>
+          <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="%"/>
+        </properties>
+      </component>
+      <component id="f32f0" class="javax.swing.JButton" binding="btndivide">
+        <constraints>
+          <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4885504"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="÷"/>
+        </properties>
+      </component>
+      <component id="eb225" class="javax.swing.JButton" binding="btnC">
+        <constraints>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="C"/>
+        </properties>
+      </component>
+      <component id="c9162" class="javax.swing.JButton" binding="btn2nd">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="2nd"/>
+        </properties>
+      </component>
+      <component id="7107e" class="javax.swing.JButton" binding="btnxsquared">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="x^2"/>
+        </properties>
+      </component>
+      <component id="ad4e5" class="javax.swing.JButton" binding="btnxcubed">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="x^3"/>
+        </properties>
+      </component>
+      <component id="92bbe" class="javax.swing.JButton" binding="btnxpowy">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="x^y"/>
+        </properties>
+      </component>
+      <component id="651aa" class="javax.swing.JButton" binding="btnepowx">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="e^x"/>
+        </properties>
+      </component>
+      <component id="d61dc" class="javax.swing.JButton" binding="btn10powx">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="10^x"/>
+        </properties>
+      </component>
+      <component id="58c4b" class="javax.swing.JButton" binding="btnno7">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="d21ca" class="javax.swing.JButton" binding="btnno8">
+        <constraints>
+          <grid row="2" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="991cd" class="javax.swing.JButton" binding="btnno9">
+        <constraints>
+          <grid row="2" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="e5ec0" class="javax.swing.JButton" binding="btnmultiply">
+        <constraints>
+          <grid row="2" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4885504"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="X"/>
+        </properties>
+      </component>
+      <component id="3c21d" class="javax.swing.JButton" binding="btnfraction">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="1/x"/>
+        </properties>
+      </component>
+      <component id="4d622" class="javax.swing.JButton" binding="btnsqroot">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="2√x"/>
+        </properties>
+      </component>
+      <component id="28bd6" class="javax.swing.JButton" binding="btncuberoot">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="3√x"/>
+        </properties>
+      </component>
+      <component id="6982e" class="javax.swing.JButton" binding="btnyrootx">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="y√x"/>
+        </properties>
+      </component>
+      <component id="9f3a2" class="javax.swing.JButton" binding="btnln">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="ln"/>
+        </properties>
+      </component>
+      <component id="bf57" class="javax.swing.JButton" binding="btnlogbase10">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="log"/>
+        </properties>
+      </component>
+      <component id="368b3" class="javax.swing.JButton" binding="btnno4">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="b37f0" class="javax.swing.JButton" binding="btnno5">
+        <constraints>
+          <grid row="3" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="7dd38" class="javax.swing.JButton" binding="btnno6">
+        <constraints>
+          <grid row="3" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="f87cd" class="javax.swing.JButton" binding="btnminus">
+        <constraints>
+          <grid row="3" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4885504"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="−"/>
+        </properties>
+      </component>
+      <component id="60143" class="javax.swing.JButton" binding="btnfactorial">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="x!"/>
+        </properties>
+      </component>
+      <component id="fefc0" class="javax.swing.JButton" binding="btnsin">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="sin"/>
+        </properties>
+      </component>
+      <component id="9bc93" class="javax.swing.JButton" binding="btncos">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="cos"/>
+        </properties>
+      </component>
+      <component id="8bbc5" class="javax.swing.JButton" binding="btntan">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="tan"/>
+        </properties>
+      </component>
+      <component id="77be0" class="javax.swing.JButton" binding="btnEE">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="EE"/>
+        </properties>
+      </component>
+      <component id="5f730" class="javax.swing.JButton" binding="btnexponential">
+        <constraints>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="e"/>
+        </properties>
+      </component>
+      <component id="257c0" class="javax.swing.JButton" binding="btnno1">
+        <constraints>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="9d95a" class="javax.swing.JButton" binding="btnno2">
+        <constraints>
+          <grid row="4" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="499f2" class="javax.swing.JButton" binding="btnno3">
+        <constraints>
+          <grid row="4" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="1ca98" class="javax.swing.JButton" binding="btnplus">
+        <constraints>
+          <grid row="4" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4885504"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="49e7a" class="javax.swing.JButton" binding="btnrad">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="Rad"/>
+        </properties>
+      </component>
+      <component id="b5007" class="javax.swing.JButton" binding="btnsinh">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="sinh"/>
+        </properties>
+      </component>
+      <component id="e079a" class="javax.swing.JButton" binding="btncosh">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="cosh"/>
+        </properties>
+      </component>
+      <component id="c0205" class="javax.swing.JButton" binding="btntanh">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="tanh"/>
+        </properties>
+      </component>
+      <component id="c3c6b" class="javax.swing.JButton" binding="btnpi">
+        <constraints>
+          <grid row="5" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="π"/>
+        </properties>
+      </component>
+      <component id="61645" class="javax.swing.JButton" binding="btnrand">
+        <constraints>
+          <grid row="5" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="Rand"/>
+        </properties>
+      </component>
+      <component id="5b12a" class="javax.swing.JButton" binding="btnzero">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="de0d0" class="javax.swing.JButton" binding="btndecimal">
+        <constraints>
+          <grid row="5" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-12504512"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="d5762" class="javax.swing.JButton" binding="btnequals">
+        <constraints>
+          <grid row="5" column="9" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-4885504"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="46233" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="10" vsize-policy="0" hsize-policy="6" anchor="9" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16777216"/>
+          <enabled value="true"/>
+          <font name="Cooper Black" style="2"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
